@@ -1,12 +1,14 @@
 import LabeledInput from "./LabeledInput";
 import '../styles/field.css'
 
-export default function Field ({title, inputNames}) {
+export default function Field ({title, props}) {
+    
+
     return (
         <>
             <div className="fieldBorder">
                 <h3 className="fieldHeader">{title}</h3>
-                {inputNames.map((name) => <LabeledInput name={name + ":"} key={name}></LabeledInput>)}
+                {props.map((prop) => <LabeledInput name={prop.name + ":"} key={prop.name} />)}
             </div>
         </>
     );

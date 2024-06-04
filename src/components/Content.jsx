@@ -1,12 +1,15 @@
 import Field from "./Field";
 
 export default function Content () {
-    const personalInfoLabels = ['First Name', 'Last Name'];
+    const personalInfoLabels = [
+        {name: 'First Name', type: 'text'},
+        {name: 'Last Name', type: 'text'},
+        {name: 'Email', type: 'email'}]
 
     return (
-        <>
-            <Field title={'Personal Info'} inputNames={personalInfoLabels}/>
-            <button>+</button>
-        </>
+        <div className="content">
+            <Field title={'General Info'} props={personalInfoLabels}/>
+            <button className="newFieldButton">Create New Field</button>
+        </div>
     );
 }
