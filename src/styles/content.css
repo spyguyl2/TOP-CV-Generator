@@ -1,0 +1,16 @@
+.content {
+  display: flex;
+  justify-content: space-around;
+  height: 100rem;
+}
+
+.preview {
+  width: 50%;
+  height: 50%;
+}
+
+.labelInputGroup {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
