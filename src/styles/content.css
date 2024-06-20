@@ -1,7 +1,18 @@
 .content {
   display: flex;
   justify-content: space-around;
-  height: 100rem;
+  height: 100%;
+}
+
+.form {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.section {
+  border: 5px saddlebrown solid;
+  padding: 10px;
+  height: 100%;
 }
 
 .preview {
