@@ -23,7 +23,7 @@ function App() {
       <Header></Header>
       <div className="content">
         <Form></Form>
-        <Preview></Preview>
+        <Preview />
       </div>
     </>
   );
