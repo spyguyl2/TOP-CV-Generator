@@ -22,7 +22,7 @@ function App() {
     <>
       <Header></Header>
       <div className="content">
-        <Form></Form>
+        <Form />
         <Preview />
       </div>
     </>
