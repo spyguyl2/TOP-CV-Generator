@@ -17,6 +17,9 @@ export default function Form() {
   const workExperienceInputs = [
     { name: "Company Name" },
     { name: "Position Title" },
+    { name: "Position Summary", type: "textarea" },
+    { name: "Start Date", type: "date" },
+    { name: "End Date", type: "date" },
   ];
 
   return (
@@ -27,6 +30,7 @@ export default function Form() {
         title="Work Experience"
         inputs={workExperienceInputs}
       ></FormSection>
+      <FormSection />
     </div>
   );
 }
