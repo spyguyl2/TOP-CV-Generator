@@ -5,19 +5,6 @@ import "./styles/App.css";
 import "./styles/content.css";
 
 function App() {
-  /*
-    <Header>
-      H1 title thing
-      reset button?
-      Toggle Preview
-    </Header>
-    <Form>
-      <Section></Section>
-      <Section></Section>
-      <Section></Section>
-    </Form>
-    <Preview></Preview>
-  */
   return (
     <>
       <Header></Header>
