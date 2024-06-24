@@ -1,10 +1,8 @@
-export default function PreviewSection({ title, items }) {
+export default function PreviewSection({ title = "title", info = "info" }) {
   return (
     <div className="previewSection">
       <h3>{title}</h3>
-      {items.map((item) => (
-        <p key={item}>{item}</p>
-      ))}
+      <p>{info}</p>
     </div>
   );
 }

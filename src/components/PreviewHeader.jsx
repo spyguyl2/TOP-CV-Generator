@@ -1,3 +1,10 @@
-export default function PreviewHeader() {
-  return <h1>Test H1</h1>;
+export default function PreviewHeader({
+  firstName = "first",
+  lastName = "last",
+}) {
+  return (
+    <h1>
+      {firstName} {lastName}
+    </h1>
+  );
 }
