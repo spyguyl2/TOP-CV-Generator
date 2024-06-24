@@ -30,7 +30,6 @@ export default function Form() {
         title="Work Experience"
         inputs={workExperienceInputs}
       ></FormSection>
-      <FormSection />
     </div>
   );
 }
